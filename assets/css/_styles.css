@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    padding-top: 76px;
+}
+
+/* Section Styles */
+.section-container {
+    padding: 4rem 0;
+}
+
+/* Navigation */
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.1);
+}
+
+/* Buttons */
+.btn-success {
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Images */
+.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.02);
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #198754;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .section-container {
+        padding: 2rem 0;
+    }
+
+    .social-icons {
+        justify-content: center !important;
+        margin-top: 1rem;
+    }
+}
