@@ -3,26 +3,6 @@ body {
     padding-top: 76px;
 }
 
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: pink;
-}
-
-a:hover {
-    text-decoration: none;
-    colorink;
-}
-
-a:active {
-    text-decoration: none;
-    color: green;
-}
-
 /* Section Styles */
 .section-container {
     padding: 4rem 0;
