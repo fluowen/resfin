@@ -1,17 +1,17 @@
 
 /* Color Variables */
 :root {
-    --primary-color: #198754;
-    --secondary-color: #6c757d;
-    --bg-color: #f8f9fa;
-    --text-color: #212529;
+    --primary-color: #003366;
+    --secondary-color: #005B5B;
+    --bg-color: #A0A0A0;
+    --text-color: #FFFFFF;
 }
 
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
     color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: #A0A0A0;
 }
 
 /* Section Styles */
